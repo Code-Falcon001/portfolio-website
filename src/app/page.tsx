@@ -1,5 +1,4 @@
-import dynamic from "next/dynamic";
-const ParticleBackground = dynamic(() => import("@/components/ParticleBackground"), { ssr: false });
+import ParticleBackgroundWrapper from "@/components/ParticleBackgroundWrapper";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
@@ -10,9 +9,10 @@ import Certifications from "@/components/Certifications";
 import Contact from "@/components/Contact";
 
 export default function Home() {
+
   return (
-    <main className="relative w-full">
-      <ParticleBackground />
+    <main className="relative w-full overflow-hidden">
+      <ParticleBackgroundWrapper />
       <Hero />
       <About />
       <Skills />
