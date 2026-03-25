@@ -8,7 +8,15 @@ export default function Cursor() {
   const [isHovering, setIsHovering] = useState(false);
   const [clicks, setClicks] = useState<{ id: number; x: number; y: number }[]>([]);
 
+  const [mounted, setMounted] = useState(false);
+  const [isTouchDevice, setIsTouchDevice] = useState(false);
+
   useEffect(() => {
+    setMounted(true);
+    if (window.matchMedia("(pointer: coarse)").matches) {
+      setIsTouchDevice(true);
+    }
+
     const updateMousePosition = (e: MouseEvent) => {
       setMousePosition({ x: e.clientX, y: e.clientY });
     };
@@ -42,8 +50,7 @@ export default function Cursor() {
     };
   }, []);
 
-  // Hide cursor if it's on a touch device
-  if (typeof window !== "undefined" && window.matchMedia("(pointer: coarse)").matches) {
+  if (!mounted || isTouchDevice) {
     return null;
   }
 
