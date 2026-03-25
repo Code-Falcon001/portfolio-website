@@ -1,4 +1,5 @@
-import ParticleBackground from "@/components/ParticleBackground";
+import dynamic from "next/dynamic";
+const ParticleBackground = dynamic(() => import("@/components/ParticleBackground"), { ssr: false });
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
