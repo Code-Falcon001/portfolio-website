@@ -65,7 +65,7 @@ export default function Experience() {
             >
               <div className="absolute -left-[41px] top-4 w-5 h-5 bg-black border-2 border-blue-500 rounded-full shadow-[0_0_15px_rgba(59,130,246,0.6)]" />
               
-              <div className="glass-card p-8 md:p-10 rounded-[2rem] group hover:border-blue-500/30 transition-all duration-500 hover:shadow-blue-500/10 hover:shadow-2xl">
+              <div className="glass-card p-8 md:p-10 rounded-[2rem] group hover:scale-[1.02] active:scale-[0.98] hover:border-blue-500/30 transition-all duration-500 hover:shadow-blue-500/10 hover:shadow-2xl">
                 <div className="flex flex-col md:flex-row md:items-center justify-between mb-8 gap-4">
                   <div>
                     <h3 className="text-2xl font-bold text-white tracking-wide">{exp.role}</h3>
@@ -112,7 +112,7 @@ export default function Experience() {
             >
               <div className="absolute -left-[41px] top-4 w-5 h-5 bg-black border-2 border-white/40 rounded-full" />
               
-              <div className="glass-card p-6 md:p-8 rounded-3xl group hover:border-white/30 transition-all duration-300">
+              <div className="glass-card p-6 md:p-8 rounded-3xl group hover:scale-[1.02] active:scale-[0.98] hover:border-white/30 transition-all duration-300 shadow-lg">
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                   <div>
                     <h3 className="text-xl font-bold text-white tracking-wide">{edu.degree}</h3>

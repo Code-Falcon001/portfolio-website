@@ -28,7 +28,7 @@ export default function Contact() {
             className="space-y-6"
           >
             <div className="glass p-8 md:p-12 rounded-[2rem] h-full flex flex-col justify-center space-y-8">
-              <a href="mailto:pranitp2001@gmail.com" className="flex items-center gap-6 group">
+              <a href="mailto:pranitp2001@gmail.com" className="flex items-center gap-6 group hover:-translate-y-1 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300">
                 <div className="p-4 bg-white/5 rounded-2xl group-hover:bg-blue-500/20 transition-colors shadow-inner border border-white/5">
                   <Mail className="w-6 h-6 text-white group-hover:text-blue-400 transition-colors" />
                 </div>
@@ -38,7 +38,7 @@ export default function Contact() {
                 </div>
               </a>
 
-              <a href="tel:+917058410526" className="flex items-center gap-6 group">
+              <a href="tel:+917058410526" className="flex items-center gap-6 group hover:-translate-y-1 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300">
                 <div className="p-4 bg-white/5 rounded-2xl group-hover:bg-blue-500/20 transition-colors shadow-inner border border-white/5">
                   <Phone className="w-6 h-6 text-white group-hover:text-blue-400 transition-colors" />
                 </div>
@@ -48,7 +48,7 @@ export default function Contact() {
                 </div>
               </a>
 
-              <a href="https://www.linkedin.com/in/pranit-patil-372550170" target="_blank" rel="noopener noreferrer" className="flex items-center gap-6 group">
+              <a href="https://www.linkedin.com/in/pranit-patil-372550170" target="_blank" rel="noopener noreferrer" className="flex items-center gap-6 group hover:-translate-y-1 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300">
                 <div className="p-4 bg-white/5 rounded-2xl group-hover:bg-blue-500/20 transition-colors shadow-inner border border-white/5">
                   <Linkedin className="w-6 h-6 text-white group-hover:text-blue-400 transition-colors" />
                 </div>
@@ -58,7 +58,7 @@ export default function Contact() {
                 </div>
               </a>
 
-              <a href="https://public.tableau.com/app/profile/pranit.patil1017/vizzes" target="_blank" rel="noopener noreferrer" className="flex items-center gap-6 group">
+              <a href="https://public.tableau.com/app/profile/pranit.patil1017/vizzes" target="_blank" rel="noopener noreferrer" className="flex items-center gap-6 group hover:-translate-y-1 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300">
                 <div className="p-4 bg-white/5 rounded-2xl group-hover:bg-blue-500/20 transition-colors shadow-inner border border-white/5">
                   <BarChart2 className="w-6 h-6 text-white group-hover:text-blue-400 transition-colors" />
                 </div>
@@ -68,7 +68,7 @@ export default function Contact() {
                 </div>
               </a>
 
-              <a href="https://github.com/Code-Falcon001" target="_blank" rel="noopener noreferrer" className="flex items-center gap-6 group">
+              <a href="https://github.com/Code-Falcon001" target="_blank" rel="noopener noreferrer" className="flex items-center gap-6 group hover:-translate-y-1 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300">
                 <div className="p-4 bg-white/5 rounded-2xl group-hover:bg-blue-500/20 transition-colors shadow-inner border border-white/5">
                   <Github className="w-6 h-6 text-white group-hover:text-blue-400 transition-colors" />
                 </div>

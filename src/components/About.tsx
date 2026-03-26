@@ -16,8 +16,8 @@ export default function About() {
           <h2 className="text-3xl md:text-5xl font-bold mb-8 text-white text-center md:text-left">About Me</h2>
           
           <div className="flex flex-col md:flex-row items-center md:items-start gap-12">
-            <div className="relative w-48 h-48 md:w-56 md:h-56 shrink-0 group">
-              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 blur-2xl opacity-40 group-hover:opacity-60 transition-opacity duration-500 animate-pulse" />
+            <div className="relative w-48 h-48 md:w-56 md:h-56 shrink-0 group hover:scale-[1.05] active:scale-[0.95] transition-transform duration-500 cursor-pointer">
+              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 blur-2xl opacity-40 group-hover:opacity-70 transition-opacity duration-500 animate-pulse" />
               <img src="/profile.png" alt="Pranit Patil" className="w-full h-full object-cover rounded-full border-4 border-white/10 relative z-10 shadow-2xl" />
             </div>
 
