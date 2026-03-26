@@ -30,7 +30,7 @@ function AnimatedGeometry() {
       const mouseY = (state.pointer.y * Math.PI) / 8;
       
       groupRef.current.position.x = THREE.MathUtils.lerp(groupRef.current.position.x, mouseX, 0.05);
-      groupRef.current.position.y = THREE.MathUtils.lerp(groupRef.current.position.y, (scrollY * 0.003) + mouseY, 0.05);
+      groupRef.current.position.y = THREE.MathUtils.lerp(groupRef.current.position.y, mouseY, 0.05);
     }
     
     if (materialRef.current) {
@@ -78,7 +78,7 @@ export default function ParticleBackground() {
         <directionalLight position={[-10, -10, -10]} intensity={0.5} color="#3b82f6" />
         <AnimatedGeometry />
       </Canvas>
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black pointer-events-none" />
+      <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_center,_transparent_0%,_rgba(0,0,0,0.8)_100%)]" />
     </div>
   );
 }
