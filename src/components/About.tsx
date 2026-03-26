@@ -18,7 +18,7 @@ export default function About() {
           <div className="flex flex-col md:flex-row items-center md:items-start gap-12">
             <div className="relative w-48 h-48 md:w-56 md:h-56 shrink-0 group">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 blur-2xl opacity-40 group-hover:opacity-60 transition-opacity duration-500 animate-pulse" />
-              <img src="/profile.jpg" alt="Pranit Patil" className="w-full h-full object-cover rounded-full border-4 border-white/10 relative z-10 shadow-2xl" />
+              <img src="/profile.png" alt="Pranit Patil" className="w-full h-full object-cover rounded-full border-4 border-white/10 relative z-10 shadow-2xl" />
             </div>
 
             <div className="space-y-6 text-lg text-gray-300 leading-relaxed font-light text-center md:text-left">
