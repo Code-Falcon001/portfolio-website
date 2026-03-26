@@ -48,13 +48,13 @@ export default function Contact() {
                 </div>
               </a>
 
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-6 group">
+              <a href="https://www.linkedin.com/in/pranit-patil-372550170" target="_blank" rel="noopener noreferrer" className="flex items-center gap-6 group">
                 <div className="p-4 bg-white/5 rounded-2xl group-hover:bg-blue-500/20 transition-colors shadow-inner border border-white/5">
                   <Linkedin className="w-6 h-6 text-white group-hover:text-blue-400 transition-colors" />
                 </div>
                 <div>
                   <p className="text-sm text-gray-500 font-medium mb-1">LinkedIn</p>
-                  <p className="text-lg text-white font-medium group-hover:text-blue-400 transition-colors">linkedin.com/in/pranitpatil</p>
+                  <p className="text-lg text-white font-medium group-hover:text-blue-400 transition-colors">linkedin.com/in/pranit-patil-372550170</p>
                 </div>
               </a>
             </div>

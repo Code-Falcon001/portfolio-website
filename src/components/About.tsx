@@ -42,7 +42,7 @@ export default function About() {
             </div>
             <div>
               <h4 className="text-4xl font-bold text-gradient mb-2">73%</h4>
-              <p className="text-xs text-gray-400 uppercase tracking-wider font-semibold">Opt. via Auto</p>
+              <p className="text-xs text-gray-400 uppercase tracking-wider font-semibold">Tasks Automated</p>
             </div>
             <div>
               <h4 className="text-4xl font-bold text-white mb-2">1M+</h4>

@@ -4,7 +4,8 @@ import { motion } from "framer-motion";
 import { Award, CheckCircle2 } from "lucide-react";
 
 const certifications = [
-  { name: "Tableau Certified Data Analyst Cert Prep", organization: "Certificate of Completion" },
+  { name: "Tableau Certified Data Analyst", organization: "Certificate of Completion" },
+  { name: "Microsoft Power BI Certification", organization: "Certificate of Completion" },
   { name: "Microsoft Power Apps Essential Training: The Basics", organization: "Certificate of Completion" },
   { name: "Introduction to Career Skills in Data Analytics", organization: "Certificate of Completion" },
   { name: "PostgreSQL Essential Training", organization: "Certificate of Completion" },

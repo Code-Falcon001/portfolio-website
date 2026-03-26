@@ -1,28 +1,22 @@
 "use client";
 
-import { motion, useInView, animate } from "framer-motion";
+import { motion, useInView, useSpring, useTransform } from "framer-motion";
 import { useEffect, useRef } from "react";
 
 function Counter({ from, to, duration = 2, suffix = "" }: { from: number, to: number, duration?: number, suffix?: string }) {
   const ref = useRef<HTMLSpanElement>(null);
-  const inView = useInView(ref, { once: true, margin: "-100px" });
+  const inView = useInView(ref, { once: true, margin: "-50px" });
+
+  const spring = useSpring(from, { duration: duration * 1000 });
+  const display = useTransform(spring, (current) => Math.floor(current) + suffix);
 
   useEffect(() => {
-    if (inView && ref.current) {
-      const controls = animate(from, to, {
-        duration,
-        ease: "easeOut",
-        onUpdate(value) {
-          if (ref.current) {
-            ref.current.textContent = Math.floor(value) + suffix;
-          }
-        }
-      });
-      return () => controls.stop();
+    if (inView) {
+      spring.set(to);
     }
-  }, [inView, from, to, duration, suffix]);
+  }, [inView, spring, to]);
 
-  return <span ref={ref}>{from}{suffix}</span>;
+  return <motion.span ref={ref}>{display}</motion.span>;
 }
 
 const stats = [

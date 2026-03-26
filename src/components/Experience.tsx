@@ -17,12 +17,25 @@ const experiences = [
   {
     role: "Procurement Analyst",
     company: "Flex",
-    period: "2020 - 2023",
+    period: "2021 - 2023",
     points: [
       "Gathered and analyzed procurement data to identify cost-saving opportunities and supply chain efficiencies.",
       "Developed foundational dashboards and automated reporting workflows, leading to an internal promotion to a dedicated Tableau Developer role.",
       "Collaborated with cross-functional supply chain teams to standardize supplier diversity tracking and contract negotiations data."
     ]
+  }
+];
+
+const education = [
+  {
+    degree: "Bachelor of Engineering (B.E.)",
+    institution: "University",
+    period: "Graduated"
+  },
+  {
+    degree: "Diploma in Engineering",
+    institution: "Polytechnic Institute",
+    period: "Completed"
   }
 ];
 
@@ -40,7 +53,7 @@ export default function Experience() {
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white tracking-tight">Professional Experience</h2>
         </motion.div>
 
-        <div className="relative border-l border-white/10 pl-8 ml-4 md:ml-0 space-y-12">
+        <div className="relative border-l border-white/10 pl-8 ml-4 md:ml-0 space-y-12 mb-20">
           {experiences.map((exp, idx) => (
             <motion.div
               key={idx}
@@ -71,6 +84,44 @@ export default function Experience() {
                     </li>
                   ))}
                 </ul>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* Education Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.8 }}
+          className="mb-16 mt-32"
+        >
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white tracking-tight">Education</h2>
+        </motion.div>
+
+        <div className="relative border-l border-white/10 pl-8 ml-4 md:ml-0 space-y-12">
+          {education.map((edu, idx) => (
+            <motion.div
+              key={`edu-${idx}`}
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.6 }}
+              className="relative"
+            >
+              <div className="absolute -left-[41px] top-4 w-5 h-5 bg-black border-2 border-white/40 rounded-full" />
+              
+              <div className="glass-card p-6 md:p-8 rounded-3xl group hover:border-white/30 transition-all duration-300">
+                <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                  <div>
+                    <h3 className="text-xl font-bold text-white tracking-wide">{edu.degree}</h3>
+                    <div className="text-gray-400 font-medium mt-1">{edu.institution}</div>
+                  </div>
+                  <div className="inline-flex items-center px-4 py-2 rounded-full border border-white/5 bg-white/5 text-sm font-medium text-gray-300 whitespace-nowrap shadow-inner">
+                    {edu.period}
+                  </div>
+                </div>
               </div>
             </motion.div>
           ))}
