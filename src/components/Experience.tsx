@@ -30,7 +30,7 @@ const education = [
   {
     degree: "Bachelor of Engineering (B.E.)",
     institution: "University",
-    period: "Graduated"
+    period: "Pursuing"
   },
   {
     degree: "Diploma in Engineering",
