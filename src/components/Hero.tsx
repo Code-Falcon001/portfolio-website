@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Linkedin, Github, BarChart2 } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -29,10 +29,27 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
-          className="text-xl md:text-2xl text-gray-400 mb-10 max-w-2xl mx-auto font-light"
+          className="text-xl md:text-2xl text-gray-400 mb-8 max-w-2xl mx-auto font-light"
         >
           Tableau Developer | Solution Architect | Data Analyst
         </motion.p>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
+          className="flex justify-center gap-6 mb-10"
+        >
+           <a href="https://www.linkedin.com/in/pranit-patil-372550170" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 hover:scale-110 transition-all" aria-label="LinkedIn">
+             <Linkedin className="w-7 h-7" />
+           </a>
+           <a href="https://github.com/Code-Falcon001" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 hover:scale-110 transition-all" aria-label="GitHub">
+             <Github className="w-7 h-7" />
+           </a>
+           <a href="https://public.tableau.com/app/profile/pranit.patil1017/vizzes" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 hover:scale-110 transition-all" aria-label="Tableau Public">
+             <BarChart2 className="w-7 h-7" />
+           </a>
+        </motion.div>
 
         <motion.div
           initial={{ opacity: 0, y: 30 }}

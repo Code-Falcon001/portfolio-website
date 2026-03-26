@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Phone, Link as Linkedin, Send } from "lucide-react";
+import { Mail, Phone, Link as Linkedin, Send, Github, BarChart2 } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -55,6 +55,26 @@ export default function Contact() {
                 <div>
                   <p className="text-sm text-gray-500 font-medium mb-1">LinkedIn</p>
                   <p className="text-lg text-white font-medium group-hover:text-blue-400 transition-colors">linkedin.com/in/pranit-patil-372550170</p>
+                </div>
+              </a>
+
+              <a href="https://public.tableau.com/app/profile/pranit.patil1017/vizzes" target="_blank" rel="noopener noreferrer" className="flex items-center gap-6 group">
+                <div className="p-4 bg-white/5 rounded-2xl group-hover:bg-blue-500/20 transition-colors shadow-inner border border-white/5">
+                  <BarChart2 className="w-6 h-6 text-white group-hover:text-blue-400 transition-colors" />
+                </div>
+                <div>
+                  <p className="text-sm text-gray-500 font-medium mb-1">Tableau Public</p>
+                  <p className="text-lg text-white font-medium group-hover:text-blue-400 transition-colors">pranit.patil1017</p>
+                </div>
+              </a>
+
+              <a href="https://github.com/Code-Falcon001" target="_blank" rel="noopener noreferrer" className="flex items-center gap-6 group">
+                <div className="p-4 bg-white/5 rounded-2xl group-hover:bg-blue-500/20 transition-colors shadow-inner border border-white/5">
+                  <Github className="w-6 h-6 text-white group-hover:text-blue-400 transition-colors" />
+                </div>
+                <div>
+                  <p className="text-sm text-gray-500 font-medium mb-1">GitHub</p>
+                  <p className="text-lg text-white font-medium group-hover:text-blue-400 transition-colors">Code-Falcon001</p>
                 </div>
               </a>
             </div>
