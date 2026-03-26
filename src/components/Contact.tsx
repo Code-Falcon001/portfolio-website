@@ -38,7 +38,7 @@ export default function Contact() {
                 </div>
               </a>
 
-              <a href="tel:+9170558410526" className="flex items-center gap-6 group">
+              <a href="tel:+917058410526" className="flex items-center gap-6 group">
                 <div className="p-4 bg-white/5 rounded-2xl group-hover:bg-blue-500/20 transition-colors shadow-inner border border-white/5">
                   <Phone className="w-6 h-6 text-white group-hover:text-blue-400 transition-colors" />
                 </div>

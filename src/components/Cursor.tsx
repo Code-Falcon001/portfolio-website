@@ -78,9 +78,10 @@ export default function Cursor() {
           scale: isHovering ? 2.5 : 1,
         }}
         transition={{
-          type: "tween",
-          ease: "backOut",
-          duration: 0.15,
+          type: "spring",
+          stiffness: 1000,
+          damping: 28,
+          mass: 0.1,
         }}
       />
       <motion.div
@@ -91,9 +92,10 @@ export default function Cursor() {
           scale: isHovering ? 1.5 : 1,
         }}
         transition={{
-          type: "tween",
-          ease: "easeOut",
-          duration: 0.3,
+          type: "spring",
+          stiffness: 250,
+          damping: 20,
+          mass: 0.5,
         }}
       />
     </>
