@@ -20,7 +20,7 @@ function Counter({ from, to, duration = 2, suffix = "" }: { from: number, to: nu
 }
 
 const stats = [
-  { label: "Efficiency Gain", value: 40, suffix: "%" },
+  { label: "Workflows Automated", value: 85, suffix: "%+" },
   { label: "Records Processed", value: 1, suffix: "M+" },
   { label: "Years Experience", value: 4, suffix: "+" },
 ];

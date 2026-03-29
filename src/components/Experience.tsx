@@ -10,7 +10,7 @@ const experiences = [
     points: [
       "Developed interactive Tableau dashboards using LOD expressions, calculated fields, parameters, and filters to track KPIs and business performance",
       "Designed and implemented ETL pipelines using SQL, Python, PySpark, and Snowflake to process and transform large datasets",
-      "Automated reporting and workflows using Python, Regrello, VBA, and Power Automate, reducing manual effort by 30–40%",
+      "Automated reporting and workflows using Python, Regrello, VBA, and Power Automate, reducing manual effort by 80–90%",
       "Built scalable data solutions integrating ETL, APIs, dashboards, and workflow automation",
       "Partnered with stakeholders to deliver business intelligence solutions and actionable insights"
     ]

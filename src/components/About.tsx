@@ -37,8 +37,8 @@ export default function About() {
               <p className="text-xs text-gray-400 uppercase tracking-wider font-semibold">Years Experience</p>
             </div>
             <div>
-              <h4 className="text-4xl font-bold text-white mb-2">40%</h4>
-              <p className="text-xs text-gray-400 uppercase tracking-wider font-semibold">Efficiency Gain</p>
+              <h4 className="text-4xl font-bold text-white mb-2">85%+</h4>
+              <p className="text-xs text-gray-400 uppercase tracking-wider font-semibold">Processes Automated</p>
             </div>
             <div>
               <h4 className="text-4xl font-bold text-gradient mb-2">1M+</h4>
