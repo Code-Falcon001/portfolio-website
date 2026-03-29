@@ -45,8 +45,8 @@ export default function About() {
               <p className="text-xs text-gray-400 uppercase tracking-wider font-semibold">Records Processed</p>
             </div>
             <div>
-              <h4 className="text-4xl font-bold text-white mb-2">End-to-End</h4>
-              <p className="text-xs text-gray-400 uppercase tracking-wider font-semibold">Data Pipelines</p>
+              <h4 className="text-4xl font-bold text-white mb-2">25+</h4>
+              <p className="text-xs text-gray-400 uppercase tracking-wider font-semibold">Dashboards Deployed</p>
             </div>
           </div>
         </motion.div>
