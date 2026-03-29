@@ -31,24 +31,6 @@ export default function About() {
             </div>
           </div>
 
-          <div className="pt-10 grid grid-cols-2 md:grid-cols-4 gap-6 border-t border-white/10 mt-10 text-center md:text-left">
-            <div>
-              <h4 className="text-4xl font-bold text-white mb-2">4.2+</h4>
-              <p className="text-xs text-gray-400 uppercase tracking-wider font-semibold">Years Experience</p>
-            </div>
-            <div>
-              <h4 className="text-4xl font-bold text-white mb-2">85%+</h4>
-              <p className="text-xs text-gray-400 uppercase tracking-wider font-semibold">Processes Automated</p>
-            </div>
-            <div>
-              <h4 className="text-4xl font-bold text-gradient mb-2">1M+</h4>
-              <p className="text-xs text-gray-400 uppercase tracking-wider font-semibold">Records Processed</p>
-            </div>
-            <div>
-              <h4 className="text-4xl font-bold text-white mb-2">25+</h4>
-              <p className="text-xs text-gray-400 uppercase tracking-wider font-semibold">Dashboards Deployed</p>
-            </div>
-          </div>
         </motion.div>
       </div>
     </section>
