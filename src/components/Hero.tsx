@@ -67,7 +67,7 @@ export default function Hero() {
 
           <a
             href="/resume.pdf"
-            download="Pranit_Patil_CV.pdf"
+            download="Pranit Patil - Tableau Developer.pdf"
             className="group flex items-center gap-2 bg-blue-600/10 border border-blue-500/30 text-blue-400 px-8 py-4 rounded-full font-semibold transition-all hover:bg-blue-600/20 hover:border-blue-500/50 hover:scale-105 active:scale-95 shadow-[0_0_15px_rgba(59,130,246,0.1)] hover:shadow-[0_0_20px_rgba(59,130,246,0.3)]"
           >
             Download CV
@@ -76,7 +76,7 @@ export default function Hero() {
           
           <a
             href="#contact"
-            className="flex items-center gap-2 glass px-8 py-4 rounded-full font-semibold text-white transition-all hover:bg-white/10 hover:scale-105 active:scale-95 border border-white/20"
+            className="flex items-center gap-2 bg-white/10 px-8 py-4 rounded-full font-semibold text-white transition-all hover:bg-white/20 hover:scale-105 active:scale-95 border border-white/30 shadow-[0_0_15px_rgba(255,255,255,0.05)] backdrop-blur-md"
           >
             Contact Me
           </a>
