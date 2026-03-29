@@ -23,30 +23,30 @@ export default function About() {
 
             <div className="space-y-6 text-lg text-gray-300 leading-relaxed font-light text-center md:text-left">
               <p>
-                I am a seasoned <strong className="text-white font-medium">Tableau Developer, Solution Architect, and Data Analyst</strong> with over 4 years of experience transforming complex datasets into intuitive, actionable business insights.
+                I am a seasoned <strong className="text-white font-medium">Data Analyst & Tableau Developer</strong> with over 4.2+ years of experience in Business Intelligence, Data Visualization, and Workflow Automation.
               </p>
               <p>
-                My expertise spans across Data Modeling, BI Architecture, Procurement Analytics, and Advanced Data Visualization. By building high-performance dashboards and optimizing data workflows, I bridge the gap between raw data and strategic decision-making. I specialize in leveraging generative AI to rapidly develop Python and VBA solutions, alongside leading end-to-end workflow automation projects using platforms like Regrello to deliver strong business impact.
+                My expertise spans across ETL pipeline development, data transformation, and KPI dashboards. By building high-performance solutions using SQL, Python, PySpark, and Snowflake, I bridge the gap between raw data and strategic decision-making. I specialize in leveraging Regrello, APIs, and AI tools to automate workflows and deliver scalable, data-driven solutions.
               </p>
             </div>
           </div>
 
           <div className="pt-10 grid grid-cols-2 md:grid-cols-4 gap-6 border-t border-white/10 mt-10 text-center md:text-left">
             <div>
-              <h4 className="text-4xl font-bold text-white mb-2">4+</h4>
+              <h4 className="text-4xl font-bold text-white mb-2">4.2+</h4>
               <p className="text-xs text-gray-400 uppercase tracking-wider font-semibold">Years Experience</p>
             </div>
             <div>
-              <h4 className="text-4xl font-bold text-white mb-2">21+</h4>
-              <p className="text-xs text-gray-400 uppercase tracking-wider font-semibold">Dashboards</p>
+              <h4 className="text-4xl font-bold text-white mb-2">40%</h4>
+              <p className="text-xs text-gray-400 uppercase tracking-wider font-semibold">Efficiency Gain</p>
             </div>
             <div>
-              <h4 className="text-4xl font-bold text-gradient mb-2">73%</h4>
-              <p className="text-xs text-gray-400 uppercase tracking-wider font-semibold">Tasks Automated</p>
+              <h4 className="text-4xl font-bold text-gradient mb-2">1M+</h4>
+              <p className="text-xs text-gray-400 uppercase tracking-wider font-semibold">Records Processed</p>
             </div>
             <div>
-              <h4 className="text-4xl font-bold text-white mb-2">1M+</h4>
-              <p className="text-xs text-gray-400 uppercase tracking-wider font-semibold">Rows Analyzed</p>
+              <h4 className="text-4xl font-bold text-white mb-2">End-to-End</h4>
+              <p className="text-xs text-gray-400 uppercase tracking-wider font-semibold">Data Pipelines</p>
             </div>
           </div>
         </motion.div>

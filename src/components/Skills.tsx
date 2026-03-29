@@ -8,36 +8,35 @@ const skillCategories = [
     title: "Data Visualization",
     icon: <BarChart3 className="w-6 h-6" />,
     skills: [
-      { name: "Tableau", level: 95 },
+      { name: "Tableau (Desktop, Server, Cloud, Prep)", level: 95 },
       { name: "Power BI", level: 85 },
+      { name: "KPI Dashboards", level: 90 },
     ]
   },
   {
     title: "Data & Databases",
     icon: <Database className="w-6 h-6" />,
     skills: [
-      { name: "SQL", level: 90 },
-      { name: "PostgreSQL", level: 85 },
-      { name: "Snowflake", level: 80 },
+      { name: "SQL (Snowflake, PostgreSQL, MySQL)", level: 90 },
+      { name: "Python & PySpark", level: 85 },
+      { name: "Data Modeling & ETL Pipelines", level: 85 },
     ]
   },
   {
     title: "Intelligence & Automation",
     icon: <Cpu className="w-6 h-6" />,
     skills: [
-      { name: "AI Prompting & Dev", level: 100 },
       { name: "Regrello Automation", level: 90 },
-      { name: "AI-Assisted Python/VBA", level: 85 },
-      { name: "Power Automate & Apps", level: 85 },
+      { name: "Power Automate & VBA", level: 85 },
+      { name: "Agentic AI & AI Tools", level: 90 },
     ]
   },
   {
     title: "Tools & Platforms",
     icon: <Wrench className="w-6 h-6" />,
     skills: [
-      { name: "Microsoft 365 Suite", level: 95 },
-      { name: "Advanced Excel", level: 100 },
-      { name: "SAP", level: 80 },
+      { name: "SharePoint & API Integration", level: 85 },
+      { name: "Advanced Excel", level: 95 },
     ]
   }
 ];

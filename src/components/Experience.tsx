@@ -4,38 +4,40 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    role: "Tableau Developer & Solution Architect",
-    company: "Flex",
-    period: "2023 - Present",
+    role: "Tableau Developer",
+    company: "Flextronics Technologies India Pvt Ltd",
+    period: "Apr 2025 - Present",
     points: [
-      "Designed and deployed 21+ enterprise dashboards using Tableau and Power BI, enabling data-driven decision making for executive leadership.",
-      "Led internal training and spearheaded end-to-end deployments using Regrello workflow automation tool, driving major process optimizations.",
-      "Leveraged AI prompting to accelerate the development of Python and VBA scripts, achieving a 73% reduction in manual reporting efforts.",
-      "Optimized complex SQL queries and ETL pipelines (Snowflake, PostgreSQL), significantly reducing dashboard load times and data latency."
+      "Developed interactive Tableau dashboards using LOD expressions, calculated fields, parameters, and filters to track KPIs and business performance",
+      "Designed and implemented ETL pipelines using SQL, Python, PySpark, and Snowflake to process and transform large datasets",
+      "Automated reporting and workflows using Python, Regrello, VBA, and Power Automate, reducing manual effort by 30–40%",
+      "Built scalable data solutions integrating ETL, APIs, dashboards, and workflow automation",
+      "Partnered with stakeholders to deliver business intelligence solutions and actionable insights"
     ]
   },
   {
     role: "Procurement Analyst",
-    company: "Flex",
-    period: "2021 - 2023",
+    company: "Flextronics Technologies India Pvt Ltd",
+    period: "Dec 2021 - Mar 2025",
     points: [
-      "Gathered and analyzed procurement data to identify cost-saving opportunities and supply chain efficiencies.",
-      "Developed foundational dashboards and automated reporting workflows, leading to an internal promotion to a dedicated Tableau Developer role.",
-      "Collaborated with cross-functional supply chain teams to standardize supplier diversity tracking and contract negotiations data."
+      "Built Tableau dashboards for procurement analytics, supplier performance, and inventory tracking",
+      "Performed data extraction, cleaning, and transformation using SQL, Excel, and PySpark",
+      "Automated manual processes using Python and VBA, improving efficiency and turnaround time",
+      "Handled large datasets ensuring data accuracy and consistency for reporting."
     ]
   }
 ];
 
 const education = [
   {
-    degree: "Bachelor of Engineering (B.E.)",
-    institution: "University",
+    degree: "Bachelor of Engineering (Mechanical)",
+    institution: "Anantrao Pawar College of Engineering & Research, Pune",
     period: "Pursuing"
   },
   {
-    degree: "Diploma in Engineering",
-    institution: "Polytechnic Institute",
-    period: "Completed"
+    degree: "Diploma in Mechanical Engineering",
+    institution: "D.K.T. E's Yashwantrao Chavan Polytechnic, Ichalkaranji",
+    period: "2019"
   }
 ];
 

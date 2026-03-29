@@ -20,9 +20,9 @@ function Counter({ from, to, duration = 2, suffix = "" }: { from: number, to: nu
 }
 
 const stats = [
-  { label: "Automation Improvement", value: 73, suffix: "%" },
-  { label: "Dashboards Delivered", value: 21, suffix: "+" },
-  { label: "Performance Gain", value: 40, suffix: "%" },
+  { label: "Efficiency Gain", value: 40, suffix: "%" },
+  { label: "Records Processed", value: 1, suffix: "M+" },
+  { label: "Years Experience", value: 4, suffix: "+" },
 ];
 
 export default function Achievements() {
