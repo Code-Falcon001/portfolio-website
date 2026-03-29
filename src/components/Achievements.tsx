@@ -22,6 +22,7 @@ function Counter({ from, to, duration = 2, suffix = "" }: { from: number, to: nu
 const stats = [
   { label: "Workflows Automated", value: 85, suffix: "%+" },
   { label: "Records Processed", value: 1, suffix: "M+" },
+  { label: "Dashboards Deployed", value: 21, suffix: "+" },
   { label: "Years Experience", value: 4, suffix: "+" },
 ];
 
@@ -39,7 +40,7 @@ export default function Achievements() {
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white tracking-tight">Measurable Impact</h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {stats.map((stat, idx) => (
             <motion.div
               key={idx}
