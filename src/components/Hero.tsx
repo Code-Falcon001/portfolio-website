@@ -66,7 +66,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="/resume.pdf"
+            href="/Pranit Patil - Tableau Developer.pdf"
             download="Pranit Patil - Tableau Developer.pdf"
             className="group flex items-center gap-2 bg-blue-600/10 border border-blue-500/30 text-blue-400 px-8 py-4 rounded-full font-semibold transition-all hover:bg-blue-600/20 hover:border-blue-500/50 hover:scale-105 active:scale-95 shadow-[0_0_15px_rgba(59,130,246,0.1)] hover:shadow-[0_0_20px_rgba(59,130,246,0.3)]"
           >
